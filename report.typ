@@ -1,5 +1,4 @@
 #import "@preview/hydra:0.6.2": hydra
-#import "@preview/equate:0.3.2": equate
 #import "@preview/unify:0.7.1": num, qty, unit
 #import "@preview/zero:0.6.1": ztable, format-table, set-num, set-round
   
@@ -99,7 +98,6 @@
 
   show link: set text(blue)
 
-  show: equate.with(breakable: auto, sub-numbering: false)
   show: codly-init.with()
 
   set math.equation(numbering: "(1)")
